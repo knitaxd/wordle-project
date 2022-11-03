@@ -4,17 +4,17 @@ export const StyledKeyboard = styled.section`
     width: 100%;
     height: auto;
     margin: 0 auto;
-    @media(max-width: 50em){
-        display: none;
-    }
+    
 `
 
 export const KeyboardBox = styled.div`
     width: 50%;
     height: auto;
-    display: grid;
     margin: 0 auto;
     user-select: none;
+    @media(max-width: 50em){
+        width: 90%;
+    }
 `
 
 export const KeyLineOne = styled.div`

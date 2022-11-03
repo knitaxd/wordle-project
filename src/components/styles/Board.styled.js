@@ -5,6 +5,9 @@ export const StyledBoard = styled.section`
     height: auto;
     background-color: ${({theme}) => theme.colors.primary};
     padding: 4rem 0;
+    @media(max-width: 50em){
+        padding: 2rem 0;
+    }
 `
 
 export const BoardBox = styled.div`

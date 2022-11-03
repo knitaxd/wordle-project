@@ -8,6 +8,9 @@ export const StyledHeader = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media(max-width: 50em){
+        height: 12vw;
+    }
 `
 
 export const StyledTitle = styled.h1`
